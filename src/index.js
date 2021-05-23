@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import GlobalStyled from './styles/GlobalStyle'
+import Typography from './styles/Typography'
 
 
 ReactDOM.render(
-  <React.StrictMode>
+  <>
+    <GlobalStyled/>
+    <Typography/>
     <App />
-  </React.StrictMode>,
+  </>,
   document.getElementById('root')
 );
  
