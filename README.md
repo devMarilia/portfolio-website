@@ -2,7 +2,6 @@
 
 <p align="center">🚀 lib para construir interfaces do usuário com componentes reutilizáveis</p><br>
 
-<p align="center">E uma biblioteca de código aberto que fornece uploads de arquivos<a href="https://www.dropzonejs.com/">🔗DropzoneJS </a></p>
 
 <img align="center" src="https://media.giphy.com/media/xT8qBsOjMOcdeGJIU8/giphy.gif" alt= "gif"><br /><br />
 
