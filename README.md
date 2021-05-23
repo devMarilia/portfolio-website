@@ -7,6 +7,12 @@
 
 ### Dependências 
 yarn add styled-components
+yarn add react-router-dom
+yarn add react-transition-group
+yarn add swiper
+yarn add uuid
+yarn add web-vitals
+yarn add react-icons
 
 
 
