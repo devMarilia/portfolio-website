@@ -14,7 +14,7 @@ export default  function HeroSection() {
             <div className="container">
                 <h1 className="hero__heading">
                 <span>Olá, Eu sou</span>
-                <span className="hero__name">Marília Augusta</span>
+                <span className="hero__name typing-animation">Marília Augusta</span>
                 </h1>
                 <div className="hero__img">
                     <img src={HeroImg} alt="foto de perfil" />

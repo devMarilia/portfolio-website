@@ -56,6 +56,9 @@ export const HeroStyles = styled.div`
   .hero__social__indicator,
   .hero__scrollDown {
     width: 50px;
+    span {
+      border: solid 1px red;
+    }
     p {
       font-size: 1.6rem;
       transform: translateY(-70px) rotate(90deg);
