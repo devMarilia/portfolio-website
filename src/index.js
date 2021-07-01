@@ -1,16 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import GlobalStyled from './styles/GlobalStyle'
-import Typography from './styles/Typography'
-
+import GlobalStyles from './styles/GlobalStyle';
+import Typography from './styles/Typography';
 
 ReactDOM.render(
   <>
-    <GlobalStyled/>
-    <Typography/>
+    <GlobalStyles />
+    <Typography />
     <App />
   </>,
   document.getElementById('root')
 );
- 

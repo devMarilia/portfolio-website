@@ -1,6 +1,12 @@
 import styled from 'styled-components';
 
-export const HeroStyles = styled.div`
+export const HeroStyles = styled.div `
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
 .hero {
     height: 100vh;
     min-height: 1000px;
@@ -29,14 +35,12 @@ export const HeroStyles = styled.div`
     max-width: 900px;
     width: 50%;
     height: 600px;
-    margin: 0 auto;
+    margin-left: 5em;
     border: 2px solid var(--gray-1);
-    background-color: var(--gray-1) ;
-
 
   }
   .hero__info {
-    margin-top: -18rem;
+    /* margin-top: -18rem; */
   }
   .hero__social,
   .hero__scrollDown {
@@ -67,7 +71,7 @@ export const HeroStyles = styled.div`
     }
     img {
       max-height: 40px;
-      width: 16px;
+      width: 10px;
       margin: 0 auto;
       object-fit: contain;
     }
@@ -92,8 +96,14 @@ export const HeroStyles = styled.div`
     }
   }
   @media only screen and (max-width: 768px) {
+    .container {
+      align-items: center;
+      flex-direction: column;
+    text-align: center
+    }
     .hero {
       min-height: 750px;
+
     }
     .hero__heading {
       font-size: 1.4rem;
@@ -103,7 +113,7 @@ export const HeroStyles = styled.div`
       }
     }
     .hero__img {
-      height: 300px;
+      display: none;
     }
     .hero__info {
       margin-top: 3rem;
@@ -118,7 +128,7 @@ export const HeroStyles = styled.div`
           font-size: 1.2rem;
         }
         img {
-          max-height: 22px;
+          max-height: 10px;
         }
       }
       .hero__social__text {

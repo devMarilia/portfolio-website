@@ -12,13 +12,12 @@ export default  function HeroSection() {
         <HeroStyles>
             <div className="hero">
             <div className="container">
-                <h1 className="hero__heading">
-                <span>Olá, Eu sou</span>
-                <span className="hero__name typing-animation">Marília Augusta</span>
-                </h1>
-                <div className="hero__img">
+            <div className="hero__img">
                     <img src={HeroImg} alt="foto de perfil" />
                 </div>
+                <h1 className="hero__heading">
+                <span>Olá, Eu sou</span>
+                <span className="hero__name">Marília Augusta</span>
                 <div className="hero__info">
                     <PText>
                     Trabalho como web designer e desenvolvedora front-end. 
@@ -26,6 +25,7 @@ export default  function HeroSection() {
                     </PText>
                     <Button btnText="see my works" btnLink="/projects" />
                 </div>
+                </h1>
                 <div className="hero__social">
                 <div className="hero__social__indicator">
                     <p>Follow</p>

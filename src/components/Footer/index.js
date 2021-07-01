@@ -8,11 +8,9 @@ export default function Footer() {
       <FooterStyle>
         <div className="container">
           <div className="footer__col1">
-            <h1 className="footer__col1__title">Ayan Khan</h1>
+            <h1 className="footer__col1__title">Marília Augusta</h1>
             <PText>
-              A freelance web designer and developer from Chittagong, Bangladesh.
-              I always make websites that have unique designs and also has a good
-              performance rate.
+              Desevolvedora front-end developer
             </PText>
           </div>
           <div className="footer__col2">
@@ -44,19 +42,19 @@ export default function Footer() {
           </div>
           <div className="footer__col3">
             <FooterCol
-              heading="Contact Info"
+              heading="Informações de Contato"
               links={[
                 {
-                  title: '+88012312',
-                  link: 'tel:+88012312',
+                  title: '(11)99920-0921',
+                  link: 'tel:(11)9920-0921',
                 },
                 {
-                  title: 'webcifar@gmail.com',
-                  link: 'mailto:webcifar@gmail.com',
+                  title: 'devmarilia.frontend@gmail.com',
+                  link: 'marilia:devmarilia.frontend@gmail.com',
                 },
                 {
-                  title: 'GEC Circle, Chittagong, Bangladesh',
-                  link: 'http://google.com/maps',
+                  title: 'Joinville-SC',
+                  link: 'https://www.google.com/maps/place/Joinville+-+SC/@-26.2625268,-49.243085,10z/data=!3m1!4b1!4m5!3m4!1s0x94dea3f39db1ab37:0xbc4b989df161e9fa!8m2!3d-26.3043758!4d-48.8463744',
                 },
               ]}
             />
@@ -66,16 +64,16 @@ export default function Footer() {
               heading="social Links"
               links={[
                 {
-                  title: 'Facebook',
-                  link: 'http://facebook.com',
+                  title: 'Linkedin',
+                  link: 'https://www.linkedin.com/in/mar%C3%ADlia-augusta-b2565316a/',
                 },
                 {
-                  title: 'Twitter',
-                  link: 'http://twitter.com',
+                  title: 'Medium',
+                  link: 'https://devmarilia-frontend.medium.com/',
                 },
                 {
                   title: 'Instagram',
-                  link: 'http://instagram.com',
+                  link: 'https://www.instagram.com/marilia_leemos/',
                 },
               ]}
             />
@@ -84,10 +82,7 @@ export default function Footer() {
         <div className="copyright">
           <div className="container">
             <PText>
-              © 2021 - Ayan Khan | Designed By{' '}
-              <a target="_blank" rel="noreferrer" href="http://webcifar.com">
-                web cifar
-              </a>{' '}
+              © 2021 - Marília Augusta
             </PText>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import PText from '../components/PText';
-import Button from '../components/Button';
+//import Button from '../components/Button';
 import AboutImg from '../assets/images/about-sec-img.jpg';
 import AboutInfoItems from '../components/AboutInfoItem/index';
 import ContactBanner from '../components/ContactBanner';
@@ -15,29 +15,27 @@ export default function About() {
             <div className="top-section">
               <div className="left">
                 <p className="about__subheading">
-                  Hi, I am <span>Ayan Khan</span>
+                  Olá, Eu sou<span>Marília</span>
                 </p>
-                <h2 className="about__heading">A freelance Web developer</h2>
+                <h2 className="about__heading">Desenvolvedora Web developer</h2>
                 <div className="about__info">
                   <PText>
-                    I am from chittagong, Bangladesh. A place of beauty and
-                    nature. Since my childhood, i love art and design. I always
-                    try to design stuff with my unique point of view. I also love
-                    to create things that can be usefull to others.
+                    Somos o criador consciente das nossas vidas, e que somos 100% responsável por tudo que acontece nela.
+                    E com o intuito de impactar no mundo e em tudo que nele há, me dedico a programação!
                     <br /> <br />
-                    I started coding since I was in high school. Coding is also an
-                    art for me. I love it and now I have the opportunity to design
-                    along with the coding. I find it really interesting and I
-                    enjoyed the process a lot.
+                    Adoro criar produtos incríveis que facilitem a vida das pessoas. Há mais de 4 anos,
+                    projetando interfaces do usuário úteis e acessíveis para startups e grandes marcas.
+
+                    Estou sempre em busca das melhores práticas de design em constante aprendizado de experiência do usuário
+                    e em constante desenvolvimento profissional e busco sempre me atualizar com as tecnologias do mercado.
                     <br />
                     <br />
-                    My vision is to make the world a better place. Now almost
-                    everything is becoming better than ever. It is time for us to
-                    create more good stuff that helps the world to become a better
-                    place.
+                    Minha visão é tornar o mundo um lugar melhor!
+                    Agora quase tudo está se tornando melhor do que nunca com a tecnologia.
+                    É hora de criarmos juntos produtos incríveis que facilitem a vida das pessoas.
                   </PText>
                 </div>
-                <Button btnText="Download CV" btnLink="#" />
+                {/* <Button btnText="Download CV" btnLink="#" /> */}
               </div>
               <div className="right">
                 <img src={AboutImg} alt="me" />
@@ -45,51 +43,55 @@ export default function About() {
             </div>
             <div className="about__info__items">
               <div className="about__info__item">
-                <h1 className="about__info__heading">Education</h1>
+                <h1 className="about__info__heading">Educação</h1>
   
                 <AboutInfoItems
-                  title="School"
-                  items={['Nasirabad Govt. High School, Chattogram']}
+                  title="Escola"
+                  items={['Braz Cubas']}
                 />
                 <AboutInfoItems
-                  title="Collage"
-                  items={['BAF Shaheen College Chattogram']}
-                />
-                <AboutInfoItems
-                  title="Varsity"
-                  items={['University Of Chitiagong']}
+                  title="Técnico"
+                  items={['Análise e desenvolvimento de sistemas']}
                 />
               </div>
               <div className="about__info__item">
-                <h1 className="about__info__heading">My Skills</h1>
-  
+                <h1 className="about__info__heading">Skills</h1>
+            
                 <AboutInfoItems
                   title="FrontEnd"
-                  items={['HTML', 'CSS', 'JavaScript', 'REACT']}
+                  items={['HTML', 'CSS', 'JavaScript', 'REACT', 'React-Native' , 'Nextjs']}
                 />
                 <AboutInfoItems
-                  title="BackEnd"
-                  items={['Node', 'Express', 'PHP']}
+                  title="Adcionais"
+                  items={['Styled-Components', 'Material UI']}
                 />
                 <AboutInfoItems
                   title="Design"
-                  items={['Photoshop', 'After Effects', 'Figma']}
+                  items={['Photoshop', 'Figma']}
                 />
               </div>
               <div className="about__info__item">
                 <h1 className="about__info__heading">Experiences</h1>
-  
+
                 <AboutInfoItems
-                  title="2010-2012"
-                  items={['junior developer at web Cifar']}
+                  title="2017-"
+                  items={[' Freelancer Front-end developer']}
                 />
                 <AboutInfoItems
-                  title="2012-2016"
-                  items={['Front end developer at web Cifar ']}
+                  title="2018-2019"
+                  items={[' (De setembro 2018 à janeiro 2019) Junior developer KInterativa']}
+                /><br/>
+                <AboutInfoItems
+                  title="2019-2021"
+                  items={['(De julho de 2019 à janeiro 2021) Front-end developer Kobel Software ']}
+                /><br/>
+                  <AboutInfoItems
+                  title="2021-2021"
+                  items={[' (De janeiro 2021 à abril 2021) Front-end developer 1M2 Loteamentos']}
                 />
                 <AboutInfoItems
-                  title="2016-"
-                  items={['Freelance web Developer']}
+                  title="2021-"
+                  items={['Front-end developer Go2Go Solutions']}
                 />
               </div>
             </div>
