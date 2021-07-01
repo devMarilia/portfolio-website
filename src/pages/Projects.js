@@ -25,35 +25,35 @@ export default function Projects() {
     };
     return (
       <>
-        <ProjectStyle>
-          <div className="container">
-            <SectionTitle
-              heading="Projects"
-              subheading="some of my recent works"
-            />
-            <div className="projects__searchBar">
-              <form>
-                <input
-                  type="text"
-                  value={searchText}
-                  onChange={handleChange}
-                  placeholder="Project Name"
-                />
-                <MdSearch className="searchIcon" />
-              </form>
-            </div>
-            <div className="projects__allItems">
-              {projectsData.map((item) => (
-                <ProjectItem
-                  key={item.id}
-                  title={item.name}
-                  desc={item.desc}
-                  img={item.img}
-                />
-              ))}
-            </div>
+          <ProjectStyle>
+        <div className="container">
+          <SectionTitle
+            heading="Projects"
+            subheading="some of my recent works"
+          />
+          <div className="projects__searchBar">
+            <form>
+              <input
+                type="text"
+                value={searchText}
+                onChange={handleChange}
+                placeholder="Project Name"
+              />
+              <MdSearch className="searchIcon" />
+            </form>
           </div>
-        </ProjectStyle>
+          <div className="projects__allItems">
+            {projectsData.map((item) => (
+              <ProjectItem
+                key={item.id}
+                title={item.name}
+                desc={item.desc}
+                img={item.img}
+              />
+            ))}
+          </div>
+        </div>
+      </ProjectStyle>
       </>
     );
   }
